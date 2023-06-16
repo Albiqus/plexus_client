@@ -8,5 +8,6 @@ height: 100vh;
 display: flex;
 align-items: flex-start;
 justify-content: center;
+flex-wrap: wrap;
 background-image: url(${wallpaper});
 `
