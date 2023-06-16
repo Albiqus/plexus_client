@@ -51,6 +51,16 @@ export const Components = () => {
 
                 <Label>Отчество</Label>
                 <Input></Input>
+                <Label>Отчество</Label>
+                <Input></Input>
+
+                <Label>Отчество</Label>
+                <Input></Input>
+                <Label>Отчество</Label>
+                <Input></Input>
+
+                <Label>Отчество</Label>
+                <Input></Input>
             </Form>
         </Div>
     )
