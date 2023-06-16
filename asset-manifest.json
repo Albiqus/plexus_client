@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/plexus_client/static/css/main.55d2d852.css",
+    "main.js": "/plexus_client/static/js/main.a5f7b116.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/plexus_client/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/main-background.png": "/plexus_client/static/media/main-background.65ee13cc14eaaf35947d.png",
+    "static/media/FedraSansPro-Bold.ttf": "/plexus_client/static/media/FedraSansPro-Bold.aeaa6923abb9a9176f6e.ttf",
+    "index.html": "/plexus_client/index.html",
+    "main.55d2d852.css.map": "/plexus_client/static/css/main.55d2d852.css.map",
+    "main.a5f7b116.js.map": "/plexus_client/static/js/main.a5f7b116.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/plexus_client/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55d2d852.css",
+    "static/js/main.a5f7b116.js"
+  ]
+}
