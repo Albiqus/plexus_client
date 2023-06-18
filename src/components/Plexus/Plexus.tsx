@@ -1,21 +1,21 @@
-import { Components } from "../Component/Components";
-import { Header } from "../Header/Header";
+import { Header } from "./Header/Header";
 import { Div } from "./Plexus-styles"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Welcome } from "./Welcome/Welcome";
 
 
 export const Plexus = () => {
 
     return (
         <Div>
-            <Header />
-            <Components/>
-
-
-
             <BrowserRouter >
+                <Header />
+
+            
                 <Routes>
-                    {/* <Route path='/' element={<Header />} /> */}
+                    {/* <Route path='/registration' element={<Registration />} />
+                    <Route path='/login' element={<Login />} /> */}
+                    <Route path='/' element={<Welcome />} />
                 </Routes>
             </BrowserRouter >
         </Div>

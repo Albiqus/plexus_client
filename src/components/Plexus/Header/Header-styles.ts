@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import logo_large from '../../images/logo/logo-large.png'
-import logo_middle from '../../images/logo/logo-middle.png'
-import logo_small from '../../images/logo/logo-small.png'
+import logo_large from '../../../images/logo/logo-large.png'
+import logo_middle from '../../../images/logo/logo-middle.png'
+import logo_small from '../../../images/logo/logo-small.png'
 
 
 export const Div = styled.div`
@@ -47,15 +47,21 @@ align-items: center;
 padding-right: 5%;
 `
 
-export const LogButton = styled.button`
-width: 140px;
-height: 40%;
+const Button = styled.button`
 border-radius: 60px;
-background: none;
-color: white;
+height: 40%;
 font-family: custom;
-font-size: 18px;
 border: none;
+color: white;
+font-size: 18px;
+  &:active{
+    color: gray;
+  }
+`
+
+export const LogButton = styled(Button)`
+width: 140px;
+background: none;
 margin-right: 2%;
   @media (max-width: 1200px) {
 width: 70px;
@@ -71,19 +77,10 @@ font-size: 5px;
     cursor: pointer;
    background-color: rgba(89, 97, 96, 0.5);
   }
-    &:active{
-    color: gray;
-  }
 `
 
-export const RegButton = styled.button`
+export const RegButton = styled(Button)`
 width: 180px;
-border-radius: 60px;
-height: 40%;
-border: none;
-font-family: custom;
-font-size: 18px;
-color: white;
 background-color: rgb(89, 97, 96);
   @media (max-width: 1200px) {
 width: 90px;
@@ -98,8 +95,5 @@ font-size: 5px;
   &:hover{
     cursor: pointer;
     outline: 2px solid white;
-  }
-  &:active{
-    color: gray;
   }
 `

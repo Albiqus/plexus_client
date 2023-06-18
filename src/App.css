@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url('./images/wallpapers/main-background.png');
+}
+
 @font-face {
     font-family: "custom";
     src: url("./fonts/FedraSansPro-Bold.ttf");
